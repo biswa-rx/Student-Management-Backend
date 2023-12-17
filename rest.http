@@ -1,0 +1,78 @@
+GET http://localhost:3000
+
+###
+GET http://192.168.4.137:3000/register_student/
+
+###
+POST http://localhost:3000/register_student
+Content-Type: application/json
+
+{
+  "name": "Sovan Behera",
+  "roll_no": 101,
+  "password": "hello"
+}
+
+###
+GET http://localhost:3000/register_student/657d4d6edf58bda2443aff2d
+
+###
+PATCH http://localhost:3000/register_student/657d4d6edf58bda2443aff2d
+Content-Type: application/json
+
+{
+  "name": "Sovan Sahoo",
+  "roll_no": 101,
+  "password": "hello"
+}
+
+###
+DELETE http://localhost:3000/register_student/657d4d6edf58bda2443aff2d
+
+
+
+
+
+###Teacher
+
+
+
+
+
+GET http://localhost:3000/register_teacher
+###
+POST http://localhost:3000/register_teacher
+Content-Type: application/json
+
+{
+  "name": "Ramesh Nayak",
+  "redg_no": 205,
+  "password": "hello"
+}
+
+###
+GET http://localhost:3000/register_teacher/657d509cfe81d62be155b344
+
+###
+PATCH http://localhost:3000/register_teacher/657d509cfe81d62be155b344
+Content-Type: application/json
+
+{
+  "name": "Sujit Nayak",
+  "redg_no": 202,
+  "password": "hello"
+}
+
+###
+DELETE http://localhost:3000/register_teacher/657d509cfe81d62be155b344
+
+
+
+
+
+###
+
+
+
+
+
